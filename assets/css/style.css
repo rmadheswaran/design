@@ -1,0 +1,390 @@
+/* ------------------------------------------------------------------------------
+
+  Template Name: Madhes.Design
+  Description: Madhes.Design
+  Author: Madheswaran R
+  Author URI: https://www/madheswaran.webflow.io
+  Version: 1.0
+
+  */
+  :root{
+    --primary-color:#FC3B24;
+	--bg-color:#ffffff;
+   
+    --white-color:#ffffff;
+    --black-color:#161513;
+    --grey-color:#828699;
+    --border-color:#D7D7D7;
+   
+	--primary-font:'Readex Pro', sans-serif;
+    --montserrat-font:"Montserrat", sans-serif;
+  }
+
+  body{ 
+    font-family: var(--montserrat-font);
+    background-color: var(--bg-color);
+    color: var(--black-color);
+    /* background-image: url(../images/bg-line.svg); */
+    background-size: contain; 
+    background-position: center;
+}
+
+   
+    .nav-link {
+        color: var(--black-color);
+        font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+    .nav-link:hover {
+        color: var(--primary-color);
+        text-decoration: line-through;
+    }
+    .menu li {
+        margin-right: 40px;
+    }
+    .deg45 i {
+        transform: rotate(-45deg);
+    }
+    .md-btn-primary {
+        padding: 8px 32px;
+        border-radius: 0px;
+        border: 1px solid #000;
+        background: #FFF;
+        box-shadow: 4px 4px 0px 0px #000;
+        color: var(--black-color);
+        transition: .5s all;
+    }
+    .md-btn-primary:hover, .circle:hover {
+        box-shadow: 6px 6px 0px 0px #dddddd;
+        background-color: #000;
+        color: #fff;
+    }
+    .hero{padding: 90px 0;
+        background: url(../images/ui_cursor.svg) right 80px center no-repeat, url(../images/webflow_cursor.svg) 80px bottom no-repeat,url(../images/frontend_cursor.svg) center bottom no-repeat,url(../images/star.svg) 180px 100px no-repeat, url(../images/star.svg) 1180px 400px no-repeat;}
+    .hero h1 {
+        color: #161513;
+        text-align: center;
+        font-size: 62px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px; /* 150% */
+    }
+    .hero .role{
+        color: #FC3B24;
+        text-align: center;
+        font-family: "Permanent Marker";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 80px; /* 111.111% */
+        background-image: url(../images/title_tag.svg);
+        background-size: cover;
+    }
+    .circle {
+        width: 80px;
+        height: 80px;
+        margin: 16px auto;
+        border-radius: 88px;
+        border: 1px solid #000;
+        background: #F2F1EF;
+        box-shadow: 4px 4px 0px 0px #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scrool-dn {
+        margin: 48px 0 0 0;
+    }
+    .experience_highlight {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .experience_highlight img {
+        margin: 0 12px;
+    }
+    
+    .experience_highlight .Number {
+        font-family: "Readex Pro";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 0 16px;
+        color: var(--white-color);
+    }
+    
+    span.tag_text {
+        color: #FFF;
+        font-family: "Readex Pro";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .hero-sticky-bottom {
+        padding: 24px 0;
+        background-color: var(--black-color);
+    }
+    .marker-word {
+        color:var(--primary-color);
+        font-family: "Permanent Marker";
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 96px;
+        text-transform: uppercase;
+    }
+    .title_2 {
+        font-family: "Montserrat", sans-serif;
+        color:var(--black-color);
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 80px; /* 171.429% */
+        text-transform: uppercase;
+    }
+    .casestudy {
+        padding: 80px 0;
+    }
+    h5.card-title {
+        color: #000;
+        font-family: "Readex Pro";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px; /* 85.714% */
+        margin: 32px 0;
+    }
+    
+    p.card-text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 200% */
+        text-transform: capitalize;
+    }
+    
+    ul.project_tags li {
+        color: #000;
+        font-family: "Readex Pro";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        list-style: none;
+        padding: 8px 12px;
+        background-color: var(--bs-teal);
+        width: fit-content;
+        border-radius: 32px;
+        border: 1px solid #000;
+        margin: 0px 8px;
+    }
+    
+    ul.project_tags {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 24px 0;
+    }
+    
+    .card-body {
+        padding: 20px;
+    }
+    .cardbox:hover img {
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    
+    .cardbox img {
+        transition: 0.3s;
+    }
+    .project_card:hover {
+        border: 1px solid #000;
+        background: #FFF;
+        box-shadow: 16px 16px 0px 0px #000;
+        transition: .5s all;
+    }
+    
+    .project_card {
+        border: 1px solid #000;
+        border-radius: 0;
+    }
+
+    .project_1 {
+        position: relative;
+        margin: 40px 0 180px 0;
+    }
+    .project_card {
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+        width: 45%;
+    }
+
+
+
+
+section.expertise h3 {
+    color: #000;
+    font-family: "Readex Pro";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 24px 0;
+}
+
+h4.text-stroke {
+    color: #000;
+    /* font-family: var(--primary-font); */
+    font-family: "Permanent Marker";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 48px 0;
+    /* -webkit-text-stroke: thin; */
+    -webkit-text-fill-color: darkgrey;
+}
+
+footer {
+    background-color: var(--black-color);
+    color: #fff;
+    padding: 100px 0 0 0;
+}
+
+footer .title_2 {
+    color: #fff;
+    font-size: 80px;
+    line-height: 120px;
+}
+
+footer .marker-word {
+    font-size: 80px;
+}
+.sociallink li a {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sociallink ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sociallink {
+    padding: 40px 0;
+    border-top: 1px solid #343E47;
+    /* border-bottom: 1px solid #ccc; */
+    margin: 80px 0 0 0;
+}
+.sociallink i {
+    color: var(--primary-color);
+}
+.query_arrow {
+    margin-top: 8rem;
+}
+
+
+
+
+:root {
+    --card-height: 40vw;
+    --card-margin: 4vw;
+    --card-top-offset: 1em;
+    --numcards: 3;
+    --outline-width: 0px;
+  }
+  
+  
+  
+  
+  
+  #card-1 {
+    --index: 1;
+  }
+  
+  #card-2 {
+    --index: 2;
+  }
+  
+  #card-3 {
+    --index: 3;
+  }
+  
+  /* #card-4 {
+    --index: 4;
+  }
+  
+  #card-5 {
+    --index: 5; 
+  }*/
+  .cardbox {
+    position: sticky;
+    top: 100px;
+    padding-top: calc(var(--index) * var(--card-top-offset));
+  }
+  
+  
+  
+  
+  
+  /* Animation */
+  @supports (animation-timeline: works) {
+  
+    @scroll-timeline cards-element-scrolls-in-body {
+      source: selector(body);
+      scroll-offsets:
+        selector(#cards) start 1,
+        selector(#cards) start 0
+      ;
+      start: selector(#cards) start 1;
+      end: selector(#cards) start 0;
+      time-range: 4s;
+    }
+  
+    .cardbox {
+      --index0: calc(var(--index) - 1);
+      --reverse-index: calc(var(--numcards) - var(--index0));
+      --reverse-index0: calc(var(--reverse-index) - 1);
+    }
+    
+    .card__content {
+      transform-origin: 50% 0%;
+      will-change: transform;
+  
+      --duration: calc(var(--reverse-index0) * 1s);
+      --delay: calc(var(--index0) * 1s);
+  
+      animation: var(--duration) linear scale var(--delay) forwards;
+      animation-timeline: cards-element-scrolls-in-body;
+    }
+  
+    @keyframes scale {
+      to {
+        transform:
+          scale(calc(
+            1.1
+            -
+            calc(0.1 * var(--reverse-index))
+          ));
+      }
+    }
+  }
+
+
+
+  
