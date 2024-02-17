@@ -14,8 +14,7 @@
     --white-color:#ffffff;
     --black-color:#161513;
     --grey-color:#828699;
-    --border-color:#D7D7D7;
-   
+    --border-color:#D7D7D7; 
 	--primary-font:'Readex Pro', sans-serif;
     --montserrat-font:"Montserrat", sans-serif;
   }
@@ -128,6 +127,7 @@
     .hero-sticky-bottom {
         padding: 24px 0;
         background-color: var(--black-color);
+        margin: 0 0 80px 0;
     }
     .marker-word {
         color:var(--primary-color);
@@ -147,9 +147,9 @@
         line-height: 80px; /* 171.429% */
         text-transform: uppercase;
     }
-    .casestudy {
+    /* .casestudy {
         padding: 80px 0;
-    }
+    } */
     h5.card-title {
         color: #000;
         font-family: "Readex Pro";
@@ -160,7 +160,7 @@
         margin: 32px 0;
     }
     
-    p.card-text {
+    .card-text {
         color: #000;
         font-family: Montserrat;
         font-size: 16px;
@@ -170,7 +170,7 @@
         text-transform: capitalize;
     }
     
-    ul.project_tags li {
+    .project_tags li {
         color: #000;
         font-family: "Readex Pro";
         font-size: 14px;
@@ -186,7 +186,7 @@
         margin: 0px 8px;
     }
     
-    ul.project_tags {
+    .project_tags {
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -228,17 +228,13 @@
         right: 0;
         width: 45%;
     }
-
-
-
-
-section.expertise h3 {
+.expertise h3 {
     color: #000;
     font-family: "Readex Pro";
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 48px;
     margin: 24px 0;
 }
 
@@ -256,17 +252,19 @@ h4.text-stroke {
 
 footer {
     background-color: var(--black-color);
-    color: #fff;
+    color: var(--white-color);
     padding: 100px 0 0 0;
 }
+footer h2.title_2 {
+    color: var(--white-color) !important;
+}
 
-footer .title_2 {
-    color: #fff;
+ .title_2 {
+    color:var(--black-color);
     font-size: 80px;
     line-height: 120px;
 }
-
-footer .marker-word {
+ .marker-word {
     font-size: 80px;
 }
 .sociallink li a {
@@ -302,8 +300,8 @@ footer .marker-word {
 
 
 :root {
-    --card-height: 40vw;
-    --card-margin: 4vw;
+    /* --card-height: 40vw;
+    --card-margin: 4vw; */
     --card-top-offset: 1em;
     --numcards: 3;
     --outline-width: 0px;
@@ -387,4 +385,145 @@ footer .marker-word {
 
 
 
-  
+@media screen and (min-width:320px) and (max-width:440px) {
+    
+    
+    .hero{padding: 40px 0 180px 0;
+        background: url(../images/ui_cursor.svg) left 180px no-repeat, url(../images/webflow_cursor.svg) 170px 180px no-repeat,url(../images/frontend_cursor.svg) center 260px no-repeat,url(../images/star.svg) 300px 220px no-repeat, url(../images/star.svg) 1206px 355px no-repeat;}
+        .scrool-dn {
+            margin: 0 auto;
+        }
+        .hero h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .hero .role {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .marker-word {
+        font-size: 32px;
+    }
+    .experience_highlight svg {
+        height: 24px;
+        width: 24px;
+    }
+    .experience_highlight {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin: 18px 8px;
+        justify-content: flex-start;
+    }
+
+    .experience_highlight .Number {font-size: 32px;}
+    
+       
+        .project_card {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            width: auto;
+        }
+        .cardbox img {
+            width: 100% !important;
+        }
+        h5.card-title {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 8px 0;
+        }
+        .card-text { font-size: 14px;
+            line-height: 24px;}
+            .project_tags li {
+                
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 24px;
+                list-style: none;
+                padding: 6px 8px; margin: 4px 8px 4px 0px;
+            }
+            .project_tags {
+                margin: 16px 0 0 0;
+            }
+
+   
+    .title_2 {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 32px;
+    }
+    .marker-word {
+        font-size: 40px;
+        line-height:80px;
+    }
+    footer {padding: 60px 0 0 0;
+    }
+    .query_arrow {
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .query_arrow img {
+        width: 80px;
+    }
+    .sociallink{margin: 40px 0 0 0;    padding: 16px 0;    }
+    .sociallink ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .sociallink li {
+        margin: 16px 8px;
+    }
+    
+    .sociallink li a {
+        font-size: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:441px) and (max-width:1023px) {
+
+    .hero h1, .hero .role{font-size: 48px;line-height: 88px;}
+    .hero {
+        padding: 40px 0;
+        background: url(../images/ui_cursor.svg) right 40px center no-repeat, url(../images/webflow_cursor.svg) 30px bottom no-repeat,url(../images/frontend_cursor.svg) center bottom no-repeat,url(../images/star.svg) 40px 160px no-repeat, url(../images/star.svg) 600px 400px no-repeat;
+    }
+    .experience_highlight svg {
+        height: 24px;
+        width: 24px;
+    }
+    .experience_highlight {
+        display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 18px 0px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    }
+
+    .experience_highlight .Number {font-size: 32px;}
+    .title_2, .marker-word {
+        font-size: 64px;
+        line-height: 96px;
+    }
+    .project_card {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        width: auto;
+    }
+    .cardbox img {
+        width: 100% !important;
+    }
+    footer .title_2 {
+        color: var(--black-color);
+        font-size: 64px;
+        line-height: 96px;
+    }
+}
