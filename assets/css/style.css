@@ -313,7 +313,7 @@ footer h2.title_2 {
     /* --card-height: 40vw;
     --card-margin: 4vw; */
     --card-top-offset: 1em;
-    --numcards: 3;
+    --numcards: 4;
     --outline-width: 0px;
   }
   
@@ -333,10 +333,10 @@ footer h2.title_2 {
     --index: 3;
   }
   
-  /* #card-4 {
+  #card-4 {
     --index: 4;
   }
-  
+   /*
   #card-5 {
     --index: 5; 
   }*/
