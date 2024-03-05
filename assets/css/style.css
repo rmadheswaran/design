@@ -313,7 +313,7 @@ footer h2.title_2 {
     /* --card-height: 40vw;
     --card-margin: 4vw; */
     --card-top-offset: 1em;
-    --numcards: 4;
+    --numcards: 5;
     --outline-width: 0px;
   }
   
@@ -336,10 +336,10 @@ footer h2.title_2 {
   #card-4 {
     --index: 4;
   }
-   /*
+
   #card-5 {
     --index: 5; 
-  }*/
+  }
   .cardbox {
     position: sticky;
     top: 100px;
